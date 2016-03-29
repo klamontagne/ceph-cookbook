@@ -1,9 +1,9 @@
 default['ceph']['branch'] = 'stable' # Can be stable, testing or dev.
 # Major release version to install or gitbuilder branch
-default['ceph']['version'] = 'firefly'
+default['ceph']['version'] = 'giant'
 default['ceph']['el_add_epel'] = true
-default['ceph']['repo_url'] = 'http://ceph.com'
-default['ceph']['extras_repo_url'] = 'http://ceph.com/packages/ceph-extras'
+default['ceph']['repo_url'] = 'http://download.ceph.com'
+default['ceph']['extras_repo_url'] = 'http://downlaod.ceph.com/packages/ceph-extras'
 default['ceph']['extras_repo'] = false
 
 case node['platform_family']
